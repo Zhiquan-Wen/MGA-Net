@@ -11,7 +11,7 @@ Visual Relational Reasoning"](https://openaccess.thecvf.com/content/ACCV2020/pap
 * Modular Graph Attention Network for Complex
 Visual Relational Reasoning
 * Yihan Zheng<sup> *</sup>, Zhiquan Wen<sup> *</sup>, Mingkui Tan, Runhao Zeng, Qi Chen, Yaowei Wang<sup> *</sup> and Qi Wu
-* Asian Conference on Computer Vision (ECCV), 2020
+* Asian Conference on Computer Vision (ACCV), 2020
 <br/>
 
 ## Dependencies
