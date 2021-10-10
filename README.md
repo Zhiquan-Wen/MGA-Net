@@ -25,7 +25,7 @@ Visual Relational Reasoning
 
 1. Clone this repository:
 
-        git clone https://github.com/wzq12345/MGA-Net.git
+        git clone https://github.com/Zhiquan-Wen/MGA-Net.git
         cd MGA-Net
         export PYTHONPATH='./'
 
@@ -37,7 +37,7 @@ Visual Relational Reasoning
 
 1. Download the features to the folder "data" from the releases.
    
-        wget https://github.com/wzq12345/MGA-Net/releases/download/feature_v1/clevr_ref+_1.0.zip
+        wget https://github.com/Zhiquan-Wen/MGA-Net/releases/download/feature_v1/clevr_ref+_1.0.zip
         unzip -d ./data clevr_ref+_1.0.zip
 
 2. Train the MGA-Net
@@ -51,8 +51,8 @@ Visual Relational Reasoning
 
  | Model |GGNN | Link| Acc (%)|
    | :-: | :-: | :-: | :-: |
- |MGA-Net| 0 |https://github.com/wzq12345/MGA-Net/releases/download/v1/GGNN_0.pth| 76.51|
- |MGA-Net| 3 |https://github.com/wzq12345/MGA-Net/releases/download/v1/GGNN_3.pth| 80.87|
+ |MGA-Net| 0 |https://github.com/Zhiquan-Wen/MGA-Net/releases/download/Pretrained_model/GGNN_0.pth| 76.51|
+ |MGA-Net| 3 |https://github.com/Zhiquan-Wen/MGA-Net/releases/download/Pretrained_model/GGNN_3.pth| 80.87|
 
 ## Citation
 If this work is useful for your research, please cite our paper:
