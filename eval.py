@@ -27,7 +27,7 @@ def eval_split(loader, model, crit, split, opt):
     total_samples = len(loader.dataset.idx_to_ref)
     with torch.no_grad():
         tic = time.time()
-        for i, (vis, ref, lfeats, loc_feats, same_feats, answer_obj, num_obj, sent_to_img_feat) in \
+        for i, (vis, ref, lfeats, loc_feats, same_feats, answer_obj, num_obj, num_ref, sent_to_img_feat) in \
                 enumerate(loader):
 
             batch_vis_feats = vis.cuda()
