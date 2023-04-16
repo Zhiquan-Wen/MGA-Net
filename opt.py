@@ -10,12 +10,12 @@ def parse_opt():
     # Dataset
     parser.add_argument('--train_vis_feat_path', type=str, default='./data/resnet101_train_gt.h5', help='vis obj feature path')
     parser.add_argument('--train_refexps_path', type=str, default='./data/train_refexp_detect_idx.h5', help='refexps idx path')
-    parser.add_argument('--train_bounding_box_path', type=str, default='./data/obj_bbox_train_sequential.json', help='bounding box path')
+    parser.add_argument('--train_bounding_box_path', type=str, default='./data/obj_bbox_train_with_sequential.json', help='bounding box path')
     parser.add_argument('--train_answer_obj_path', type=str, default='./data/train_refexp_answer_detect.json', help='answer_obj path')
     parser.add_argument('--vocab_path', type=str, default='./data/vocab.json', help='vocab path')
     parser.add_argument('--test_vis_feat_path', type=str, default='./data/resnet101_val_gt.h5',   help='vis obj feature path')
     parser.add_argument('--test_refexps_path', type=str, default='./data/test_refexp_detect_idx.h5', help='refexps idx path')
-    parser.add_argument('--test_bounding_box_path', type=str, default='./data/obj_bbox_val_sequential.json', help='bounding box path')
+    parser.add_argument('--test_bounding_box_path', type=str, default='./data/obj_bbox_val_with_sequential.json', help='bounding box path')
     parser.add_argument('--test_answer_obj_path', type=str, default='./data/test_refexp_answer_detect.json', help='answer_obj path')
 
     # Language Encoder Setting
